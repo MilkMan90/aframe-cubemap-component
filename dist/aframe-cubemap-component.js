@@ -83,7 +83,7 @@ AFRAME.registerComponent('cubemap', {
     folder: {
       type: 'string'
     },
-    faces: {
+    urls: {
       type: 'array'
     },
     edgeLength: {
@@ -115,6 +115,9 @@ AFRAME.registerComponent('cubemap', {
       'posy', 'negy',
       'posz', 'negz'
     ];
+
+    if (data.urls) urls = data.urls
+    
     // Apply extension
     urls = urls.map(function(val) {
       return val + "." + data.ext;
