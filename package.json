@@ -1,5 +1,5 @@
 {
-  "name": "aframe-cubemap-component",
+  "name": "aframe-cubemap-component-c3d",
   "version": "0.1.2",
   "description": "Cubemap component for A-Frame.",
   "main": "index.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bryik/aframe-cubemap-component.git"
+    "url": "git+https://github.com/milkman90/aframe-cubemap-component.git"
   },
   "keywords": [
     "aframe",
@@ -26,9 +26,9 @@
   "author": "Ben Pyrik <ben@wsundine.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bryik/aframe-cubemap-component/issues"
+    "url": "https://github.com/milkman90/aframe-cubemap-component/issues"
   },
-  "homepage": "https://github.com/bryik/aframe-cubemap-component#readme",
+  "homepage": "https://github.com/milkman90/aframe-cubemap-component#readme",
   "devDependencies": {
     "aframe": "^0.6.0",
     "browserify": "^13.1.0",

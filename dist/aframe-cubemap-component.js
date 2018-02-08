@@ -83,6 +83,9 @@ AFRAME.registerComponent('cubemap', {
     folder: {
       type: 'string'
     },
+    faces: {
+      type: 'array'
+    },
     edgeLength: {
       type: 'int',
       default: 5000
